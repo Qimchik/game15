@@ -1,0 +1,28 @@
+.elem{
+	width: 98px;
+	height: 98px;
+	background:blue;
+	position:absolute;
+	z-index: 5;
+	font-weight: bold;
+	font-size: 80px;
+	line-height: 98px;
+	padding: 0;
+	text-align: center;
+	border:2px solid;
+}
+.goback{
+	-webkit-transition: all  0.5s ease-out 0s;
+    -moz-transition: all  0.5s ease-out 0s;
+    -o-transition: all  0.5s ease-out 0s;
+    transition: all  0.5s ease-out 0s;
+}
+.none{
+	width: 98px;
+	height: 98px;
+	background:grey;
+	background-size:100% 100%;
+	position:absolute;
+	z-index: 1;
+	border:2px solid;
+}
